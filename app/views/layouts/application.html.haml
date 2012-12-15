@@ -1,0 +1,13 @@
+-# coding: utf-8
+!!!
+%html(lang="pl")
+  %head
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    %title RMCS
+    = airbrake_javascript_notifier
+    = stylesheet_link_tag    "application", :media => "all"
+    = javascript_include_tag "https://maps.googleapis.com/maps/api/js?sensor=false"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    = yield

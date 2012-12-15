@@ -1,0 +1,7 @@
+/config/mongoid.yml
+/.bundle
+/log/*.log
+/tmp
+/db/seed_files
+/public/system
+/public/uploads
